@@ -1,7 +1,10 @@
+
 body {
   font-family:  Arial;
   justify-content: center;
 }
+
+h1{text-align: center;}
 
 .flex-container {
   display: flex;
