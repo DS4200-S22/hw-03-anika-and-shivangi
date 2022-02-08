@@ -17,3 +17,6 @@ filter: brightness(100%);}
 .shape:hover{
 filter: brightness(50%);
 }
+
+h3{text-align: center;}
+ul { display: inline-block; text-align: left; }
