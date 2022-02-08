@@ -5,8 +5,24 @@ body {
 
 h1{text-align: center;}
 
+* {
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+
 .flex-container {
   display: flex;
+<<<<<<< HEAD
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -20,3 +36,38 @@ filter: brightness(50%);
 
 h3{text-align: center;}
 ul { display: inline-block; text-align: left; }
+=======
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding:  5px;
+}
+
+.box1{
+  border: 8px solid red;
+  flex-grow: 1;
+}
+
+.box2{
+  border: 8px solid red;
+  flex-grow: 1;
+
+}
+
+.box3{
+  border: 8px solid red;
+  flex-grow: 1;
+
+}
+
+.box4{
+  border: 8px solid red;
+  flex-grow: 1;
+
+}
+
+
+h3{
+  font-family: Arial;
+  text-align: : center;
+}
+>>>>>>> 4ee70f9a693d11f96c8dc4cc0e0215007d3e61a0
