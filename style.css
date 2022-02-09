@@ -37,31 +37,17 @@ filter: brightness(50%);
 
 .flex-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  padding:  5px;
+  row-gap: 15px;
 }
 
-.box1{
-  width: 5;
-  border: 8px solid red;
-  flex-grow: 1;
+.box{
+  width: 40%;
+  height: 40%;
+  border: 8px solid blueviolet;
 }
 
-.box2{
-  border: 8px solid red;
-  flex-grow: 1;
 
-}
 
-.box3{
-  border: 8px solid red;
-  flex-grow: 1;
 
-}
-
-.box4{
-  border: 8px solid red;
-  flex-grow: 1;
-
-}
