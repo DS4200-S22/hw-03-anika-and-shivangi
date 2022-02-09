@@ -3,7 +3,8 @@ body {
   justify-content: center;
 }
 
-h1{text-align: center;}
+h1{
+  text-align: center;}
 
 
 h3{
@@ -23,15 +24,17 @@ filter: brightness(50%);
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   row-gap: 15px;
   align-content: space-around;
-  align-items: center;
+  align-items: stretch;
+  padding: 10px;
+
 }
 
 .box{
-  width: 40%;
-  height: 40%;
+  width: 40px;
+  height: 40px;
   border: 10px solid blueviolet;
   }
 
