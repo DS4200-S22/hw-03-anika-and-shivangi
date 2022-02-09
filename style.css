@@ -20,29 +20,30 @@ body {
     line-height: 1;
 }
 
-.flex-container {
-  display: flex;
-<<<<<<< HEAD
-  flex-wrap: wrap;
-  justify-content: center;
+h3{
+  font-family: Arial;
+  text-align: center;
 }
 
+ul{display: inline-block; text-align: left;}
+
 svg{padding:25px 25px 25px 25px;
-filter: brightness(100%);}
+filter: brightness(100%);
+width: 12%; height: auto;}
 
 .shape:hover{
 filter: brightness(50%);
 }
 
-h3{text-align: center;}
-ul { display: inline-block; text-align: left; }
-=======
+.flex-container {
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   padding:  5px;
 }
 
 .box1{
+  width: 5;
   border: 8px solid red;
   flex-grow: 1;
 }
@@ -64,10 +65,3 @@ ul { display: inline-block; text-align: left; }
   flex-grow: 1;
 
 }
-
-
-h3{
-  font-family: Arial;
-  text-align: : center;
-}
->>>>>>> 4ee70f9a693d11f96c8dc4cc0e0215007d3e61a0
